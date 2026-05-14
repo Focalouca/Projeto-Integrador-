@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Nanistoreart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Nanistoreart</h1>
+        <nav>
+          <a href="index.html">Início</a> 
+            <a href="sobre_nos.html">Sobre nós</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <div class="overlay">
+            <h2>Loja de artes feitas a mão</h2>
+            <p>Pronta entrega e encomendas</p>
+            <button> <a href="contato.html">Entre em contato </a> </button>
+        </div>
+    </section>
+
+   
+    
+
+
+    <footer>
+        <p>© 2026 Nanistoreart </p>
+    </footer>
+    
+
+</body>
+</html>
