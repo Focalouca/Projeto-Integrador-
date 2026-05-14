@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contato - Nanistoreart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Nanistoreart</h1>
+        <nav>
+          <a href="index.html">Início</a> 
+            <a href="sobre_nos.html">Sobre nós</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <section class="contato">
+
+        <h2>Entre em contato</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>WhatsApp</h3>
+
+                <p>Tire dúvidas e faça sua encomenda personalizada.</p>
+
+                <a href="https://wa.me/5519997378166" target="_blank">
+                    Chamar no WhatsApp
+                </a>
+
+            </div>
+
+            <div class="card instagram">
+
+                <h3>Instagram</h3>
+
+                <p>Veja novidades, produtos e inspirações artesanais.</p>
+
+                <a href="https://instagram.com/nanistoreart?igsh=M28wcTVrY2h6N2dl" target="_blank">
+                    Visitar Instagram
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h3>WhatsApp</h3>
+
+                <p>Entre em contato para orçamento e pedidos.</p>
+
+                <a href="https://wa.me/5519999416277" target="_blank">
+                    Fazer encomenda
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Nanistoreart</p>
+    </footer>
+
+</body>
+
+</html>
