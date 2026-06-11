@@ -39,12 +39,13 @@ header nav a:hover {
 
 /* HERO */
 
-hero {
+.hero {
     height: 100vh;
     background:
         linear-gradient(
             rgba(95, 70, 160, 0.45),
-            rgba(80, 120, 255, 0.35)),
+            rgba(80, 120, 255, 0.35)
+        ),
         url('https://images.unsplash.com/photo-1452860606245-08befc0ff44b?q=80&w=1974');
     background-size: cover;
     background-position: center;
@@ -54,7 +55,7 @@ hero {
     padding-left: 90px;
 }
 
-hero2 {
+.hero2 {
     min-height: 100vh;
     background: linear-gradient(
         rgba(95, 70, 160, 0.45),
@@ -64,7 +65,7 @@ hero2 {
 
 /* OVERLAY */
 
-overlay {
+.overlay {
     max-width: 650px;
     background: rgba(255,255,255,0.15);
     backdrop-filter: blur(8px);
@@ -283,6 +284,4 @@ footer {
     background: #d8c8ff;
     color: #2d1b4e;
     font-size: 15px;
-}
-    color: #3f3f3f;
 }
