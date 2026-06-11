@@ -106,12 +106,7 @@ overlay button {
     padding: 15px 35px;
     border: none;
     border-radius: 40px;
-    background: linear-gradient(
-        90deg,
-        #b388ff,
-        #7ab8ff
-    );
-
+    background: linear-gradient(90deg, #b388ff,#7ab8ff);
     color: white;
     text-decoration: none;
     font-size: 17px;
@@ -124,9 +119,7 @@ overlay button:hover {
     background: linear-gradient(
         90deg,
         #9d6bff,
-        #5da9ff
-    );
-
+        #5da9ff);
     text-decoration: none;
     transform: scale(1.05);
 }
