@@ -45,7 +45,7 @@ header nav a:hover {
 
 /* HERO */
 
-.hero {
+hero {
     height: 100vh;
 
     background:
@@ -67,7 +67,7 @@ header nav a:hover {
     padding-left: 90px;
 }
 
-.hero2 {
+hero2 {
     height: 300vh;
 
     background:
@@ -78,8 +78,7 @@ header nav a:hover {
 }
 
 /* OVERLAY */
-
-.overlay {
+overlay {
     max-width: 650px;
 
     background: rgba(255,255,255,0.15);
@@ -97,7 +96,7 @@ header nav a:hover {
     text-decoration: none;
 }
 
-.overlay h2 {
+overlay h2 {
     font-size: 70px;
 
     color: white;
@@ -108,7 +107,7 @@ header nav a:hover {
     margin-bottom: 20px;
 }
 
-.overlay p {
+overlay p {
     font-size: 20px;
 
     color: #f5f5f5;
@@ -119,7 +118,7 @@ header nav a:hover {
 
 /* BOTÃO */
 
-.overlay button {
+overlay button {
     width: 240px;
 
     margin-top: 30px;
@@ -146,7 +145,7 @@ header nav a:hover {
     transition: 0.3s;
 }
 
-.overlay button:hover {
+overlay button:hover {
     background: linear-gradient(
         90deg,
     
@@ -175,7 +174,7 @@ footer {
 
 /* CONTATO */
 
-.contato {
+contato {
     padding: 100px 60px;
 
     background: #f4f0ff;
@@ -183,7 +182,7 @@ footer {
     text-align: center;
 }
 
-.contato h2 {
+contato h2 {
     font-size: 50px;
 
     margin-bottom: 60px;
@@ -193,7 +192,7 @@ footer {
 
 /* CARDS */
 
-.cards {
+cards {
     display: flex;
 
     justify-content: center;
@@ -203,7 +202,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.card {
+card {
     width: 320px;
 
     padding: 40px;
@@ -217,11 +216,11 @@ footer {
     transition: 0.3s;
 }
 
-.card:hover {
+card:hover {
     transform: translateY(-10px);
 }
 
-.card h3 {
+card h3 {
     font-size: 30px;
 
     margin-bottom: 20px;
@@ -229,7 +228,7 @@ footer {
     color: #7b68ee;
 }
 
-.card p {
+card p {
     font-size: 17px;
 
     margin-bottom: 30px;
@@ -241,7 +240,7 @@ footer {
 
 /* BOTÕES */
 
-.card a {
+card a {
     display: inline-block;
 
     padding: 14px 28px;
@@ -263,7 +262,7 @@ footer {
     transition: 0.3s;
 }
 
-.card a:hover {
+card a:hover {
     transform: scale(1.05);
 
     background: linear-gradient(
@@ -275,14 +274,14 @@ footer {
 
 /* CARD DO INSTAGRAM */
 
-.instagram {
+instagram {
     background: linear-gradient(
         180deg,
         #fdf0ff,
         #eef4ff
     );
 }
-.produto {
+produto {
     width: 300px;
     border: 2px solid #000000;
     border-radius: 12px;
@@ -293,7 +292,7 @@ footer {
     margin: 20px 0;
 }
 
-.container-produtos {
+container-produtos {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -307,11 +306,11 @@ footer {
     border-radius: 8px;
 }
 
-.produto h2 {
+produto h2 {
     margin: 10px 0;
 }
 
-.produto button {
+produto button {
     background-color: #000;
     color: white;
     border: none;
@@ -320,11 +319,11 @@ footer {
     cursor: pointer;
 }
 
-.produto button:hover {
+produto button:hover {
     background-color: #333;
 }
 
-.sobre-nos {
+sobre-nos {
     max-width: 900px;
     margin: 80px auto;
     padding: 50px;
@@ -340,18 +339,18 @@ footer {
     text-align: center;
 }
 
-.sobre-nos .icone {
+sobre-nos .icone {
     font-size: 60px;
     margin-bottom: 20px;
 }
 
-.sobre-nos h2 {
+sobre-nos h2 {
     color: #6c63ff;
     font-size: 42px;
     margin-bottom: 20px;
 }
 
-.sobre-nos p {
+sobre-nos p {
     font-size: 18px;
     line-height: 1.8;
     color: #3f3f3f;
