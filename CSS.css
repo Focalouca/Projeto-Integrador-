@@ -10,15 +10,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 25px 70px;
-
     background: linear-gradient(
         90deg,
         #c8b6ff,
         #a0c4ff
     );
-
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
@@ -42,34 +39,33 @@ header nav a:hover {
 
 /* HERO */
 
-hero {
+.hero {
     height: 100vh;
     background:
         linear-gradient(
             rgba(95, 70, 160, 0.45),
-            rgba(80, 120, 255, 0.35)),
+            rgba(80, 120, 255, 0.35)
+        ),
         url('https://images.unsplash.com/photo-1452860606245-08befc0ff44b?q=80&w=1974');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    text-decoration: none;
     padding-left: 90px;
 }
 
-hero2 {
-    height: 300vh;
-
-    background:
-        linear-gradient(
-            rgba(95, 70, 160, 0.45),
-            rgba(80, 120, 255, 0.35)
-        );
+.hero2 {
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(95, 70, 160, 0.45),
+        rgba(80, 120, 255, 0.35)
+    );
 }
 
 /* OVERLAY */
-overlay {
+
+.overlay {
     max-width: 650px;
     background: rgba(255,255,255,0.15);
     backdrop-filter: blur(8px);
@@ -78,17 +74,16 @@ overlay {
     border: 1px solid rgba(255,255,255,0.2);
     display: flex;
     flex-direction: column;
-    text-decoration: none;
 }
 
-overlay h2 {
+.overlay h2 {
     font-size: 70px;
     color: white;
     line-height: 1.1;
     margin-bottom: 20px;
 }
 
-overlay p {
+.overlay p {
     font-size: 20px;
     color: #f5f5f5;
     line-height: 1.7;
@@ -96,49 +91,42 @@ overlay p {
 
 /* BOTÃO */
 
-overlay button {
+.overlay button {
     width: 240px;
     margin-top: 30px;
     padding: 15px 35px;
     border: none;
     border-radius: 40px;
-    background: linear-gradient(90deg, #b388ff,#7ab8ff);
+    background: linear-gradient(
+        90deg,
+        #b388ff,
+        #7ab8ff
+    );
     color: white;
-    text-decoration: none;
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
 }
 
-overlay button:hover {
+.overlay button:hover {
     background: linear-gradient(
         90deg,
         #9d6bff,
-        #5da9ff);
-    text-decoration: none;
+        #5da9ff
+    );
     transform: scale(1.05);
-}
-
-/* FOOTER */
-
-footer {
-    text-align: center;
-    padding: 30px;
-    background: #d8c8ff;
-    color: #2d1b4e;
-    font-size: 15px;
 }
 
 /* CONTATO */
 
-contato {
+.contato {
     padding: 100px 60px;
     background: #f4f0ff;
     text-align: center;
 }
 
-contato h2 {
+.contato h2 {
     font-size: 50px;
     margin-bottom: 60px;
     color: #6c63ff;
@@ -146,14 +134,14 @@ contato h2 {
 
 /* CARDS */
 
-cards {
+.cards {
     display: flex;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
 }
 
-card {
+.card {
     width: 320px;
     padding: 40px;
     border-radius: 25px;
@@ -162,26 +150,24 @@ card {
     transition: 0.3s;
 }
 
-card:hover {
+.card:hover {
     transform: translateY(-10px);
 }
 
-card h3 {
+.card h3 {
     font-size: 30px;
     margin-bottom: 20px;
     color: #7b68ee;
 }
 
-card p {
+.card p {
     font-size: 17px;
     margin-bottom: 30px;
     color: #555;
     line-height: 1.6;
 }
 
-/* BOTÕES */
-
-card a {
+.card a {
     display: inline-block;
     padding: 14px 28px;
     border-radius: 40px;
@@ -193,11 +179,10 @@ card a {
         #b388ff,
         #7ab8ff
     );
-
     transition: 0.3s;
 }
 
-card a:hover {
+.card a:hover {
     transform: scale(1.05);
     background: linear-gradient(
         90deg,
@@ -208,25 +193,17 @@ card a:hover {
 
 /* CARD DO INSTAGRAM */
 
-instagram {
+.instagram {
     background: linear-gradient(
         180deg,
         #fdf0ff,
         #eef4ff
     );
 }
-produto {
-    width: 300px;
-    border: 2px solid #000000;
-    border-radius: 12px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.384);
-    background-color: #5e3eaa88;
-    margin: 20px 0;
-}
 
-container-produtos {
+/* PRODUTOS */
+
+.container-produtos {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -234,17 +211,29 @@ container-produtos {
     padding: 20px;
 }
 
+.produto {
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.38);
+    background-color: #5e3eaa88;
+    margin: 20px 0;
+}
+
 .produto img {
     width: 100%;
     height: 275px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
-produto h2 {
+.produto h2 {
     margin: 10px 0;
 }
 
-produto button {
+.produto button {
     background-color: #000;
     color: white;
     border: none;
@@ -253,11 +242,13 @@ produto button {
     cursor: pointer;
 }
 
-produto button:hover {
+.produto button:hover {
     background-color: #333;
 }
 
-sobre-nos {
+/* SOBRE NÓS */
+
+.sobre-nos {
     max-width: 900px;
     margin: 80px auto;
     padding: 50px;
@@ -268,19 +259,31 @@ sobre-nos {
     text-align: center;
 }
 
-sobre-nos .icone {
+.sobre-nos .icone {
     font-size: 60px;
     margin-bottom: 20px;
 }
 
-sobre-nos h2 {
+.sobre-nos h2 {
     color: #6c63ff;
     font-size: 42px;
     margin-bottom: 20px;
 }
 
-sobre-nos p {
+.sobre-nos p {
     font-size: 18px;
     line-height: 1.8;
+    color: #3f3f3f;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #d8c8ff;
+    color: #2d1b4e;
+    font-size: 15px;
+}
     color: #3f3f3f;
 }
