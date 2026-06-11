@@ -39,7 +39,7 @@ header nav a:hover {
 
 /* HERO */
 
-.hero {
+hero {
     height: 100vh;
     background:
         linear-gradient(
