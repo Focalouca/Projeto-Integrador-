@@ -4,7 +4,7 @@
     color: #2d1b4e;
 }
 
-/* HEADER */ 
+/* HEADER */
 
 header {
     display: flex;
@@ -65,6 +65,16 @@ header nav a:hover {
     text-decoration: none;
 
     padding-left: 90px;
+}
+
+.hero2 {
+    height: 300vh;
+
+    background:
+        linear-gradient(
+            rgba(95, 70, 160, 0.45),
+            rgba(80, 120, 255, 0.35)
+        );
 }
 
 /* OVERLAY */
@@ -271,4 +281,78 @@ footer {
         #fdf0ff,
         #eef4ff
     );
+}
+.produto {
+    width: 300px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.384);
+    background-color: #5e3eaa88;
+    margin: 20px 0;
+}
+
+.container-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.produto img {
+    width: 100%;
+    height: 275px;
+    border-radius: 8px;
+}
+
+.produto h2 {
+    margin: 10px 0;
+}
+
+.produto button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.produto button:hover {
+    background-color: #333;
+}
+
+.sobre-nos {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 50px;
+
+
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    text-align: center;
+}
+
+.sobre-nos .icone {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos h2 {
+    color: #6c63ff;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #3f3f3f;
 }
