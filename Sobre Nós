@@ -18,5 +18,34 @@
     </header>
 
 
+    <section class="sobre-nos">
+        <div class="icone">✨</div>
+    
+        <h2>Sobre Nós</h2>
+    
+        <p>
+            A Nanistoreart nasceu com o objetivo de oferecer produtos únicos,
+            criativos e feitos com carinho para nossos clientes. Nosso compromisso
+            é trazer qualidade, beleza e um atendimento especial em cada pedido.
+        </p>
+    
+        <div class="destaques">
+            <div>
+                <h3>💜</h3>
+                <p>Qualidade</p>
+            </div>
+    
+            <div>
+                <h3>⭐</h3>
+                <p>Atendimento</p>
+            </div>
+    
+            <div>
+                <h3>🚚</h3>
+                <p>Entrega</p>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
