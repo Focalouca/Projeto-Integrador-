@@ -204,15 +204,10 @@ cards {
 
 card {
     width: 320px;
-
     padding: 40px;
-
     border-radius: 25px;
-
     background: white;
-
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-
     transition: 0.3s;
 }
 
