@@ -293,29 +293,118 @@ footer {
 
 @media (max-width: 768px) {
 
-    .cabecalho {
+    /* HEADER */
+    header {
         flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    header nav a {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 20px;
+    }
+
+    .overlay {
+        max-width: 100%;
+        padding: 25px;
+        margin: 10px;
         text-align: center;
     }
 
-    .menu {
-        justify-content: center;
+    .overlay h2 {
+        font-size: 38px;
     }
 
-    .conteudo-flex {
-        flex-direction: column;
+    .overlay p {
+        font-size: 16px;
     }
 
-    .artigo,
-    .sidebar {
+    .overlay button {
         width: 100%;
     }
 
-    .card img {
-        height: auto; 
+    /* CONTATO */
+    .contato {
+        padding: 60px 20px;
     }
 
-    button {
+    .contato h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    /* CARDS */
+    .cards {
+        gap: 20px;
+    }
+
+    .card {
         width: 100%;
+        max-width: 340px;
+        padding: 25px;
+    }
+
+    .card h3 {
+        font-size: 24px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    /* PRODUTOS */
+    .produto {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .produto img {
+        height: auto;
+    }
+
+    .produto button {
+        width: 100%;
+    }
+
+    /* SOBRE NÓS */
+    .sobre-nos {
+        margin: 30px 15px;
+        padding: 25px;
+    }
+
+    .sobre-nos .icone {
+        font-size: 45px;
+    }
+
+    .sobre-nos h2 {
+        font-size: 30px;
+    }
+
+    .sobre-nos p {
+        font-size: 16px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 20px;
+        font-size: 14px;
     }
 }
