@@ -288,3 +288,34 @@ footer {
     color: #2d1b4e;
     font-size: 15px;
 }
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .conteudo-flex {
+        flex-direction: column;
+    }
+
+    .artigo,
+    .sidebar {
+        width: 100%;
+    }
+
+    .card img {
+        height: auto; 
+    }
+
+    button {
+        width: 100%;
+    }
+}
